@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.StructuralPatterns", "02
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.BehavioralPatterns", "03.BehavioralPatterns", "{2478F033-10D1-4028-B868-156D8D03B5B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.DesignPattern.TemplateMethod", "GettingStarted.DesignPattern.TemplateMethod\GettingStarted.DesignPattern.TemplateMethod.csproj", "{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,11 +22,16 @@ Global
 		{C248CC1A-9DFC-453E-81E7-CF1BB521D33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C248CC1A-9DFC-453E-81E7-CF1BB521D33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C248CC1A-9DFC-453E-81E7-CF1BB521D33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C248CC1A-9DFC-453E-81E7-CF1BB521D33B} = {FBFCD70E-A1B9-49B7-90FA-D59EC38133DF}
+		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352} = {2478F033-10D1-4028-B868-156D8D03B5B4}
 	EndGlobalSection
 EndGlobal
