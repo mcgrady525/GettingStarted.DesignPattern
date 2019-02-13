@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.BehavioralPatterns", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.DesignPattern.TemplateMethod", "GettingStarted.DesignPattern.TemplateMethod\GettingStarted.DesignPattern.TemplateMethod.csproj", "{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.DesignPattern.Stragety", "GettingStarted.DesignPattern.Stragety\GettingStarted.DesignPattern.Stragety.csproj", "{D32309E7-33D8-4528-805D-283BF5198976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.DesignPattern.Adapter", "GettingStarted.DesignPattern.Adapter\GettingStarted.DesignPattern.Adapter.csproj", "{C06677F1-02FE-479E-BEFA-933481DB3319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32309E7-33D8-4528-805D-283BF5198976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32309E7-33D8-4528-805D-283BF5198976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32309E7-33D8-4528-805D-283BF5198976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32309E7-33D8-4528-805D-283BF5198976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06677F1-02FE-479E-BEFA-933481DB3319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06677F1-02FE-479E-BEFA-933481DB3319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06677F1-02FE-479E-BEFA-933481DB3319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06677F1-02FE-479E-BEFA-933481DB3319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C248CC1A-9DFC-453E-81E7-CF1BB521D33B} = {FBFCD70E-A1B9-49B7-90FA-D59EC38133DF}
 		{CC4E4CD9-E571-468A-A75A-BDF09C6AA352} = {2478F033-10D1-4028-B868-156D8D03B5B4}
+		{D32309E7-33D8-4528-805D-283BF5198976} = {2478F033-10D1-4028-B868-156D8D03B5B4}
+		{C06677F1-02FE-479E-BEFA-933481DB3319} = {60228973-B38E-4328-87C0-AA44EC173EF7}
 	EndGlobalSection
 EndGlobal
